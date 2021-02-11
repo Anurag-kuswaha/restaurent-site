@@ -79,14 +79,14 @@ padding-right:15px;
 .navbar-header button.navbar-toggle{
 	clear:both;
 }
-/* extra small device restaurent image fix */
+/* extra small device restaurent name fix */
 @media (max-width: 767px){
 	.navbar-brand h1{
 font-family: 'Roboto Slab', serif;
-      font-size:10vw; /* 1vw= 1% of viewport width */
+     
 	}
 	#collapsable-nav a{  
-		font-size: 1.2em; /* our menu/about/awards size i am increaing  */
+		font-size: 1.2em; /* our menu/about/awards size am increaing  */
 	}
 	#collapsable-nav a span{ /* targeting our glyphicon */
        font-size:1em;
