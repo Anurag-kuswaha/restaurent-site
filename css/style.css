@@ -4,6 +4,7 @@ body{
 	background-color: #E3E2DF ;
 	font-family: 'Oxygen Mono', monospace;
 
+
 }
 #header-nav{
 	background-color: rgba(50, 115, 220, 0.3);
@@ -92,41 +93,60 @@ font-family: 'Roboto Slab', serif;
        font-size:1em;
        margin-right:5px;
 	}
+	#call-btn > a{
+		font-size:1.5em;
+		display:block;
+		margin:0 20px;
+		padding:10px;
+		border:2px solid #fff;
+		background-color:#f6b319;
+
+	}
+	#xs-deliver {
+		margin-top:5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+	#main-content .jumbotron{
+		background-color:#E3E2DF;
+	}
+	#main-content .jumbotron img{
+       margin-top: 30px;
+       padding: 0px;
+      border-radius: 50px 20px;
+      
+       
+	}
+	#menu-tile, #specials-tile{
+		width:360px;
+		margin:0 auto 15px;
+	}
 }
-@media (min-width: 1200px){
-.jumbotron{
-  background: url('rest-image_1200.jpg') no-repeat;
-  height:675px;
-  box-shadow: 0 0 50px #3F0C1F;
-  border:2px solid #3F0C1F;  
-}
+@media (min-width: 768px) and (max-width: 991px){
+   .container .jumbotron{
+     background: url('rest-image_768.jpg') no-repeat;
+     height:432px;
+
+     box-shadow: 0 0 50px #3F0C1F;
+     border:2px solid #3F0C1F; 
+   }
 }
 @media (min-width: 992px) and (max-width: 1199px){
-   .jumbotron{
+   .container .jumbotron{
      background: url('rest-image_992.jpg') no-repeat;
      height:558px;
      box-shadow: 0 0 50px #3F0C1F;
      border:2px solid #3F0C1F; 
    }
 }
-.main-image img{
-border: 20px solid black;
- position: relative;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height:auto;
+@media (min-width: 1200px){
+  .container .jumbotron{
+  background: url('rest-image_1200.jpg') no-repeat;
+  height:675px;
+  box-shadow: 0 0 50px #3F0C1F;
+  border:2px solid #3F0C1F;  
 }
-#main-image-mobile img{
-border: 7px solid black;
-position: relative;
-	display: block;
-	padding:0px;
- margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height:auto;
 }
 
  #menu-tile, #specials-tile ,#map-tile{
@@ -136,8 +156,9 @@ position: relative;
 	margin-bottom:15px;
 	border: 2px solid #2F0C1F;
 	overflow:hidden;
-}#menu-tile:hover, #specials-tile:hover,#map-tile:hover{
-box-shadow: 0 1px 40px 1px #cccccc;
+}
+#menu-tile:hover, #specials-tile:hover,#map-tile:hover{
+box-shadow: 0 1px 40px 1px black;
 }
  #menu-tile {
  	background: url("menu.jpg") no-repeat;
