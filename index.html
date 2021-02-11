@@ -29,61 +29,89 @@
         </div>
          RIGHT SIDE BUTTON ** -->
 <header>
- <nav id="header-nav" class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid">
-    <a class="navbar-brand float-left" href="index.html">
-    	<div id="logo-img" alt="logo image"> </div>
-    	<div id="best">
-    	<a href="index.html" > <h1 class="d-none d-md-block"> THE LUNCH BOX </h1>
-          <p> 
+ <nav id="header-nav" class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header" >
+            <a href="index.html" class="pull-left visible-md visible-lg">
+    	         <div id="logo-img" alt="logo image"> </div>
+            </a>
+
+         <div class="navbar-brand">
+    	      <a href="index.html" > <h1> THE LUNCH BOX</h1>
+            </a>
+           <p> 
             <img src="chef.png" height="50px">
             <span >  India's best restaurent</span>
-          </p>
-         	</a>
-         
+           </p>
          </div>
-    </a>
-    <div class="float-right">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div id="list_" class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="          bi bi-bag-check-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
-                    </svg><h5 class="align-middle"> Menu </h5>
-                </a>
-          <a class="nav-link " href="#">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                   </svg><h5 class="align-middle"> About </h5>
-               </a>
-          <a class="nav-link" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
-                    <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
-                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
-                    </svg><h5 class="align-middle">Award</h5>
-                </a>
-         
-        </div>
-      </div>
     </div>
-    <a id= "phone_num"  class="float-right" >
-          <p> We Deliver</p>+91-9628635591</a>
-  </div>
+
+
+    <div id="collapsable-nav" class="collapse navbar-collapse">
+      <ul id="nav-list" class= "nav navbar-nav navbar-right">
+          <li> 
+                <a href="#menu-categories.html">
+                    <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+                </a>
+          </li>
+          <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+                </a>
+          </li>
+           <li>
+                <a href="#">
+                    <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards
+                </a>
+          </li>
+          <li id="phone" class="hidden-xs">
+                <a href="tel:+91-9628635591">
+                    <span>+91-9628635591</span>
+                </a>
+                <div> * We Deliver 24*7</div>   
+          </li>
+      </ul>
+    </div>
+   </div>
 </nav>
 </header>
+<!--
 <div id="main-content" class="container-fluid">
       <div class="main-image d-none d-md-block  ">
           <img src="rest-image.jpg" >
       </div>
       <div id="main-image-mobile" class="d-block d-sm-none">
-         <img src="rest-image-mobile.jpg"  >
+         <img src="rest-image.jpg"  >
 
       </div>
 </div>
-<p> JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.JavaScript is among the most powerful and flexible programming languages of the web. It powers the dynamic behavior on most websites, including this one.</p>
+       grid system -->
+
+      <div class="home-tiles container row" >
+          <div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+               <a href="menu-category.html" > <div id=menu-tile> <span> Menu </span> </div>
+               </a>
+          </div>
+          <div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html" > <div id=specials-tile> <span> Specials </span> </div>
+                </a>
+          </div>
+          <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+               <a href="https://goo.gl/maps/fhFuwKK53VrSsoc98" target="_blank" > <div id=map-tile> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.576149259658!2d85.17491851449303!3d25.618996920746103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58dad3a72e77%3A0x77f1238113beca28!2sBrahmaputra%20Hostel%2C%20NIT%20Patna!5e0!3m2!1sen!2sin!4v1613023952640!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <span>map </span> </div>
+               </a>
+          </div>
+
+      </div>
+
+
 
 
 		</body>
