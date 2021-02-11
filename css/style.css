@@ -20,7 +20,7 @@ body{
 
 }
 .navbar-brand{
-  padding-top:25px;
+  padding-top:16px;
 
 }
 .navbar-brand h1{
@@ -36,9 +36,6 @@ body{
   margin-bottom:0px;
   line-height: 1;
 
-}
-.navbar-brand p span{
-	height:200px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
    text-decoration:none ;
