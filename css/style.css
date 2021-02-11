@@ -66,10 +66,9 @@ border: 20px solid black;
   height:50%;
 }
 #main-image-mobile img{
-border: 20px solid black;
+border: 7px solid black;
 	display: block;
 	padding:0px;
-	border:2px black;
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
