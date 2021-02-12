@@ -130,7 +130,7 @@ padding-right:15px;
       
        
 	}
-	#home-tiles #menu-tile,#home-tiles #specials-tile{
+	#home-tiles #menu-tile,#home-tiles #specials-tile, #home-tiles #map-tile{
 		width:360px;
 		margin:0 auto 15px;
 	}
