@@ -1,7 +1,8 @@
 body{
 	font-size: 16px;
 	color:black;
-	background-color: #E3E2DF ;
+	/*background-color: #E3E2DF ;*/
+	background-color: #61122f ;
 	font-family: 'Oxygen Mono', monospace;
 
 
@@ -80,10 +81,21 @@ padding-right:15px;
 .navbar-header button.navbar-toggle{
 	clear:both;
 }
-/* extra small device restaurent name fix */
+/* extra extra small device  */
+@media (max-width:479px){
+  .navbar-brand h1{
+  	padding-top:5px;
+  	font-size:6vw;
+  }
+  #home-tiles #menu-tile, #home-tiles #specials-tile{
+  	width:280px;
+  	margin:0 auto 15px;
+  }
+}
+/* extra small device  fix */
 @media (max-width: 767px){
 	.navbar-brand h1{
-font-family: 'Roboto Slab', serif;
+      font-family: 'Roboto Slab', serif;
      
 	}
 	#collapsable-nav a{  
@@ -109,7 +121,7 @@ font-family: 'Roboto Slab', serif;
 		text-transform: uppercase;
 	}
 	#main-content .jumbotron{
-		background-color:#E3E2DF;
+		background-color:#61122f;
 	}
 	#main-content .jumbotron img{
        margin-top: 30px;
@@ -118,7 +130,7 @@ font-family: 'Roboto Slab', serif;
       
        
 	}
-	#menu-tile, #specials-tile{
+	#home-tiles #menu-tile,#home-tiles #specials-tile{
 		width:360px;
 		margin:0 auto 15px;
 	}
