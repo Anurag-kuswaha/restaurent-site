@@ -1,0 +1,21 @@
+<!-- menu categories starts -->
+<div id="main-content" class="container">
+  <h2 id="menu-categories-title" class="text-center"> Menu Category : {{category}}</h2>
+  <div class="row">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 textDiv">
+        {{# each MenuDetails as |val key|}}
+        <div class="col-md-12 col-sm-12">
+          {{# each val as |value keyInside|}}
+          <div class="color-white col-md-10 col-sm-10  col-xs-10"> {{keyInside}} </div>
+          <div class="color-white text-right col-md-2 col-sm-2  col-xs-2"> : {{value}} </div>
+          {{/ each}}
+        </div>
+        {{/ each}}
+      </div>
+      <div class="col-md-6 col-sm-12 bgImg">
+          <img src="/image/{{category}}.jpg" alt="{{category}}">
+      </div>
+    </div>
+  </div>
+</div>
