@@ -3,8 +3,8 @@ var winWidth = $(window).width();
 function makeBackgroundImage() {
 
     $('.bgImg').each(function () {
-        var Img = $(this).find('img')
-        Img.css({ 'display': 'none' })
+        var Img = $(this).find('img') 
+        Img.css({ 'display': 'none' });
         if (winWidth > 768) {
             var height = $('.textDiv').height() ? $('.textDiv').height() : $('.bgImg').height()
             var imgSrc = Img.attr('src');
