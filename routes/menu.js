@@ -9,8 +9,8 @@ router.get("/categories", (req, res) => {
 router.get("/single-categories/:category", (req, res) => {
   var category = req.params.category;
   var MenuDetails= menuData[category];
-  console.log(MenuDetails);
-  console.log(category);
+  //console.log(MenuDetails);
+  //console.log(category);
  
   res.render('single-categories',{MenuDetails:MenuDetails,category:category,layout:'empty'})
 });
